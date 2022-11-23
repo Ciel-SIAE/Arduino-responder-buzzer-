@@ -3,7 +3,7 @@ int key=0;                       //选择控制变量
 int first;                       //第一个按钮号
 float power=1;                   //pwm功率
 float pch=1;                  //呼吸灯变速
-int highpower=70;               //zuidapwm功率
+int highpower=70;               //max pwm power
 int skey1=0,skey2=0,skey3=0,skey4=0,skey5=0,skey6=0;                      //权限刷新
 int mpower=110;
 
@@ -26,15 +26,6 @@ int go1,go2,go3,go4,go5,go6;//参与权限
 
 //参与权限变量：
 int st1=0,st2=0,st3=0,st4=0,st5=0,st6=0;
-
-
-
-/*
-void Lighton();
-void Outputs();
-void errs();
-int Choose();
-*/
 
 void setup(){
 pinMode(pl1o,OUTPUT);
@@ -234,11 +225,6 @@ int Choose(){
   }
    
 }
-
-
-
-
-
 
 
 void loop(){
