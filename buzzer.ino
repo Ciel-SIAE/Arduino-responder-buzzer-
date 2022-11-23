@@ -270,8 +270,6 @@ void loop(){
        s6=digitalRead(pl6i);
       
        
-    //这一段有bug：
-       
        if(skey1==0){
         if(s1==HIGH){
          go1=1;
